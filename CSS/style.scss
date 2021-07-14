@@ -3,6 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --ubuntu: 'Ubuntu', sans-serif;
+    --robotoMono: 'Roboto Mono', monospace;
+    --black: #1f1f1f;
+    --darkBlue:  #1f618d;
+    --yellow:  #f4d03f;
+    --grey:  #424949;
+    --violet: #292d7b;
+    --white: #fff;
+  }
 body{
     background: #15202b;
     color: white;
@@ -70,4 +80,5 @@ img{
     background: orangered;
     cursor: pointer;
 }
-@import 'index'
+@import 'index';
+@import 'timeline';
