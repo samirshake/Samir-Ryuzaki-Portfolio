@@ -75,6 +75,8 @@ const timelineContainer = document.querySelector('.timeline__container');
 console.log(timelineContainer);
 
 window.addEventListener('DOMContentLoaded',function(){
+    color= localStorage.getItem('value');
+    background.style.backgroundColor = `${color}`;
     timelineContainer.innerHTML= line;
     projectDetails.forEach( data=>{
         let {image,title,description,link} = {...data};
@@ -101,3 +103,25 @@ window.addEventListener('DOMContentLoaded',function(){
         </article>`;
     });
 });
+
+
+//changing background
+
+const rounds= document.querySelectorAll('.round');
+const background = document.querySelector('.header-main');
+// console.log(rounds);
+rounds.forEach(function(round){
+    round.addEventListener('click',()=>{
+        let color = round.dataset.color;
+        
+        console.log(background)
+        background.style.backgroundColor = `${color}`;
+        updateLocalStorage(color);
+    })
+})
+
+
+function updateLocalStorage(color) {
+    localStorage.setItem('value',color);
+}
+

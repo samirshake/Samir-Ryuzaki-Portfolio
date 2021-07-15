@@ -158,11 +158,9 @@ img {
 }
 
 .header-main nav .round {
-  display: inline-block;
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background: orangered;
   margin-right: 1rem;
 }
 
@@ -171,11 +169,11 @@ img {
 }
 
 .header-main nav .round:nth-child(2) {
-  background-color: #fec02f;
+  background-color: #000;
 }
 
 .header-main nav .round:nth-child(3) {
-  background-color: #2aca3e;
+  background-color: #192734;
 }
 
 .header-main .flex {

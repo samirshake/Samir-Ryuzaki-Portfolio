@@ -27,21 +27,19 @@
         align-items: center;
         justify-content: space-between;
         .round{
-            display: inline-block;
             width: 15px;
             height: 15px;
             border-radius: 50%;
-            background: orangered;
             margin-right: 1rem;
         }
         .round:nth-child(1){
             background-color:#fc6058;
         }
         .round:nth-child(2){
-            background-color:#fec02f;
+            background-color:#000;
         }
         .round:nth-child(3){
-            background-color:#2aca3e;
+            background-color:#192734;
         }
     }
     .flex{
