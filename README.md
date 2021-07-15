@@ -78,4 +78,8 @@ The design is form Dennis Ivy.
 
 
 
-        
+        color= localStorage.getItem('value');
+    background.style.backgroundColor = `${color}`;
+
+    /changing background
+
