@@ -362,7 +362,7 @@ img {
   background: white;
   color: black;
   width: 300px;
-  height: 320px;
+  height: 250px;
 }
 
 .project .img {
@@ -375,18 +375,13 @@ img {
 
 .project .project-text h3 {
   font-size: 1.2rem;
-  margin-top: .5rem;
-}
-
-.project .project-text p {
-  color: #4b5156;
-  font-size: 1rem;
-  margin: 1rem 0;
+  margin: .5rem 0;
 }
 
 .project .project-text a {
   color: #17a2b8;
   font-size: .9rem;
+  margin-top: 3rem;
 }
 
 .timeline-button {
