@@ -1,5 +1,47 @@
 const projectDetails = [
     {
+        title:'Todo Application With Dark-Light Mode',
+        image:'./project-image/todo-app-light-dark.png',
+        link: 'https://frontendmentor-todo-app-challenge.vercel.app/',
+        description: '以前にtodoアプリを作成しました。しかし、私は新しい機能を追加し、以前とは異なる方法でコードを記述しました。ユーザーは、ダークモードとライトモードを使用できるようになりました。'
+    },
+    {
+        title:'Kanji Web Application',
+        image:'./project-image/kanji-web-application.png',
+        link: 'https://vercel.com/ryuzaki979/kanji-web-application',
+        description: 'このアプリケーションは漢字学習者向けです。ユーザーが自分の進捗状況を確認し、自分のスピードで学習できるシステムを作成しました。'
+    },
+    {
+        title:'Faq Accordion Menu',
+        image:'./project-image/faq-accordion.png',
+        link: 'https://faq-accordion-card-vercel.vercel.app/',
+        description: 'このプロジェクトは、1つのアイテムを表示し、残りのアイテムを非表示にする方法を学ぶのに役立ちます'
+    },
+    {
+        title:'Time Tracking Dashboard',
+        image:'./project-image/time-tracking-dashboard.png',
+        link: 'https://frontendmentor-all-projects-tau.vercel.app/',
+        description: 'このプロジェクトは、1つのアイテムを表示し、残りのアイテムを非表示にする方法を学ぶのに役立ちます'
+    },
+    {
+        title:'Stats Preview Card',
+        image:'./project-image/stats-preview-card.png',
+        link: 'https://frontendmentor-all-projects.vercel.app/',
+        description: 'これは、HTMLとCSSを使用したシンプルなカードデザインです。'
+    },
+    {
+        title:'Bookmark Landing Page',
+        image:'./project-image/bookmark-lp.png',
+        link: 'https://bem-bookmarikg-websilte.vercel.app/',
+        description: 'これは、HTMLとCSSで作成されたランディングページです。これはフロントエンドメンターチャレンジの一部です.'
+    },
+    {
+        title:'Meet Landing Page',
+        image:'./project-image/meet-lp.png',
+        link: 'https://meet-landing-page-inky.vercel.app/',
+        description: 'これは、HTMLとCSSで作成されたランディングページです。これはフロントエンドメンターチャレンジの一部です.'
+    },
+    {
         title:'Animation on Input',
         image:'./project-image/Animation-on-input.png',
         link: 'https://animation-on-input.vercel.app/',
@@ -83,7 +125,7 @@ window.addEventListener('DOMContentLoaded',function(){
             <span class="circle"></span>
             <div class="img">
                 
-                <a href=${link}>
+                <a target="_blank" href=${link}>
                 <img src="${image}" alt="project-image">
                     </a>
             </div>
